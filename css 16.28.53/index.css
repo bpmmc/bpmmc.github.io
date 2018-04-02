@@ -1,0 +1,230 @@
+@font-face {
+    font-family: SuisseIntl;
+    src: url(/assets/feb04797925d5f18d573e01201a7d3ae.eot);
+    src: url(/assets/feb04797925d5f18d573e01201a7d3ae.eot?#iefix) format("embedded-opentype"), url(/assets/83659aa3fff52ccea8a5cc190a02e9a6.woff2) format("woff2"), url(/assets/669e2742be23bcaed890b95b89461909.woff) format("woff"), url(/assets/1edbeaa6c22263798b8a7bfd112ee17b.svg#SuisseIntl-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: u + 0020-00fe
+}
+
+@font-face {
+    font-family: SuisseIntl;
+    src: url(/assets/51e589a7242c9f8f814fb5aa389feb60.eot);
+    src: url(/assets/51e589a7242c9f8f814fb5aa389feb60.eot?#iefix) format("embedded-opentype"), url(/assets/da5ee214c2a0a26a8e906101b8e20ce9.woff2) format("woff2"), url(/assets/9aeab0f7f093f2ee9e4d53825925b896.woff) format("woff"), url(/assets/676aa39d1f4cd1bfab71c8807ae576ad.svg#SuisseIntl-Medium) format("svg");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: u + 0020-00fe
+}
+
+body {
+    color: #fff;
+    background: #000;
+    font-family: SuisseIntl, Arial;
+    margin: 0
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 400
+}
+
+li, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+a {
+    text-decoration: none
+}
+
+a, button {
+    color: inherit;
+    font-size: inherit
+}
+
+button {
+    background: transparent;
+    border: none;
+    padding: 0
+}
+
+noscript {
+    display: none
+}
+
+.block {
+    overflow: hidden;
+}
+
+.block h1, .block h2 {
+    font-size: 80px;
+    font-weight: 400
+}
+
+.block h5 {
+    opacity: .5;
+    font-size: 14px
+}
+
+.block .block-text {
+    font-size: 30px;
+    width: 80%
+}
+
+.block .block-img {
+    width: 100%;
+    height: 0;
+    position: relative;
+    pointer-events: none
+}
+
+.block .block-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto
+}
+
+.block .block-img img:not([src]) {
+    visibility: hidden
+}
+
+.white-block {
+    color: #000;
+    background: #fff
+}
+
+.margin-block:after, .margin-block:before {
+    display: block;
+    content: "";
+    width: 100%
+}
+
+.margin-block:before {
+    margin-bottom: 170px
+}
+
+.margin-block:after {
+    margin-top: 170px
+}
+
+@media (max-width:1199px) {
+    .block {
+
+    }
+}
+
+@media (max-width:767px) {
+    .block {
+
+    }
+
+    .block h1, .block h2 {
+        font-size: 40px
+    }
+
+    .block h5 {
+        font-size: 12px
+    }
+
+    .block .block-text {
+        font-size: 20px;
+        width: 80%
+    }
+
+    .margin-block:before {
+        margin-bottom: 90px
+    }
+
+    .margin-block:after {
+        margin-top: 40px
+    }
+}
+
+#cover {
+    position: fixed;
+    pointer-events: none;
+    z-index: 900;
+    top: 500px;
+    top: 100vh;
+    left: 0;
+    width: 100%
+}
+
+#cover .cover-inner, #cover .cover-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    height: 100vh
+}
+
+#cover .cover-wrapper {
+    bottom: 0;
+    overflow: hidden;
+    background: #fff;
+    transition: height .25s cubic-bezier(.39, .575, .565, 1) .2s
+}
+
+#cover .cover-wrapper:after {
+    content: "";
+    background-color: #666;
+    position: absolute;
+    left: 50%;
+    width: 1px;
+    top: calc(100% - 20vh);
+    height: 0;
+    transition: height .7s cubic-bezier(.39, .575, .565, 1)
+}
+
+#cover .cover-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#cover h2 {
+    color: black;
+    display: block;
+    height: 18px;
+    font-size: 20px
+}
+
+#cover.show .cover-wrapper:after {
+    height: 20vh
+}
+
+#cover.hide .cover-wrapper {
+    height: 0
+}
+
+#cover.hide .cover-wrapper:after {
+    bottom: 0;
+    top: auto;
+    height: 0
+}
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map*/
