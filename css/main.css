@@ -673,11 +673,7 @@ noscript {
     font-size: 30px
 }
 
-@media (max-width:1199px) {
-    #contact h3 {
-        font-size: 56px
-    }
-}
+
 
 @media (max-width:767px) {
     #contact h3 {
