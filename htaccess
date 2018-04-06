@@ -21,3 +21,10 @@
   RewriteCond %{REQUEST_URI} !/$
   RewriteRule (.*) $1\.html [L]
 </IfModule>
+
+
+<FilesMatch "\.(ttf|otf|eot)$">
+<IfModule mod_headers.c>
+Header set Access-Control-Allow-Origin "*"
+</IfModule>
+</FilesMatch>
