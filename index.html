@@ -56,14 +56,24 @@
 <style type="text/css">
   
   	body{
-      background-color: black !important;
       max-width: 100%;
       overflow-x: hidden;
       cursor: url('cursor.png'), auto;
     }
 
-
     a:hover {cursor: url('cursor.png'), auto}
+
+        #video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
 
 
     @font-face {
@@ -292,6 +302,11 @@
 		
 
 	</table>
+
+
+    <video autoplay loop id="video-background" muted plays-inline>
+  <source src="home.mp4" type="video/mp4">
+</video>
 
 	</div>
 
