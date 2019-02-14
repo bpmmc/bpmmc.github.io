@@ -38,6 +38,7 @@ body.locked {
     overflow: hidden
 }
 
+
 ::-moz-selection { background: #F08080; }
 ::selection { background: #F08080; }
 
@@ -87,6 +88,7 @@ header {
     width: 100%;
     top: 0
 }
+
 
 .lrgtxt {
     font-size: 20px;
@@ -454,11 +456,6 @@ img.rsImg {
     padding: 0 20px 40px;
     box-sizing: border-box;
     float: left
-}
-
-.grid_item a {
-    border: none;
-    width: 100%
 }
 
 .grid_item img {
@@ -973,7 +970,7 @@ body.single-people {
 
     .lrgtxt {
         font-size: 14px;
-        line-height: 14px
+        line-height: 24px
     }
 
     .lrgtxt a, .lrgtxt .filter {
