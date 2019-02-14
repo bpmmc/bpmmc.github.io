@@ -41,6 +41,13 @@ body.locked {
 ::-moz-selection { background: #F08080; }
 ::selection { background: #F08080; }
 
+#logo {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+
 a.logo {
   font-size: 24px;
     color: #4c4c4c;
@@ -338,13 +345,9 @@ img.rsImg {
 }
 
 .logo {
-    z-index: 3;
-    position: relative;
-    left: 17px;
-    width: 253px;
-    height: 60px;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0)
+          max-width: 100%;
+          min-width: 205px;
+          height: auto;
 }
 
 .logo a {
