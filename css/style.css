@@ -970,7 +970,7 @@ body.single-people {
 
     .lrgtxt {
         font-size: 14px;
-        line-height: 24px
+        line-height: 14px
     }
 
     .lrgtxt a, .lrgtxt .filter {
@@ -981,8 +981,160 @@ body.single-people {
     .logo {
         left: 20px;
         width: 162px;
-        max-width: 100%;
-        height: auto !important;
+        height: 38px
+    }
+
+    #togglemenu {
+        top: 20px;
+        right: 20px;
+        width: 20px;
+        height: 20px
+    }
+
+    .menu_title {
+        position: absolute;
+        bottom: 20px;
+        left: 20px
+    }
+
+    .gridwrap {
+        padding: 100px 13px 0
+    }
+
+    #open-filters {
+        top: 71px;
+        right: 20px;
+        font-size: 14px;
+        line-height: 14px
+    }
+
+    #open-filters span, .wf-active #open-filters span {
+        display: none
+    }
+
+    .grid_item {
+        width: 50%;
+        padding: 0 7px 14px
+    }
+
+    .grid_item h2 {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        margin: 12px 0 0;
+        min-height: 36px;
+        line-height: 12px;
+        overflow: hidden;
+        white-space: normal
+    }
+
+    #people, .people_horiz .personwrap, .social-feed-container .grid_item {
+        width: 100%
+    }
+
+    .stamp, .hideinfo.toggleinfo {
+        display: none
+    }
+
+    #filters ul, #filters .navwrap, .nav_overlay ul, .nav_overlay .navwrap {
+        margin: 100px 0 0 0;
+        padding: 0 20px
+    }
+
+    .page article {
+        margin: 100px 0 0 0;
+        padding: 0 20px
+    }
+
+    .people_text, .page-contact article p, .page-contact article p a {
+        font-size: 16px;
+        line-height: 18px
+    }
+
+    .people_text a, .page-contact article p a {
+        line-height: 12px;
+        margin: 4px 0 0
+    }
+
+    .imgwrap {
+        position: relative
+    }
+
+    .imgwrap img {
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+
+    .people_text, .imgwrap, .portrait {
+        margin: 0 0 12px;
+        float: none
+    }
+
+    .project {
+        height: auto;
+        padding: 100px 20px 0;
+        box-sizing: border-box
+    }
+
+    .slider {
+        display: none !important
+    }
+
+    .mobile_gallery {
+        display: block
+    }
+
+    .slider {
+        display: block;
+        padding: 0 0 65px
+    }
+
+    .slider img {
+        margin: 0 0 20px;
+        width: 100%;
+        height: auto;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s
+    }
+
+    .slider img.loaded {
+        opacity: 1
+    }
+
+    .subheading, .infohidden .showinfo {
+        display: none
+    }
+
+    .next_project, .share.buttons, #backtotop {
+        font-size: 14px;
+        line-height: 10px;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        right: auto;
+        top: auto;
+        margin: 2px 0 0
+    }
+
+    #backtotop {
+        display: block;
+        float: left;
+        border-bottom: 1px solid;
+        color: #4c4c4c;
+        cursor: pointer
+    }
+
+    #people-wrap {
+        -webkit-transform: translate(0, 0) !important;
+        transform: translate(0, 0) !important
+    }
+
+    .rsGCaption {
+        width: 70%;
+        bottom: 20px;
+        right: 20px
+    }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
