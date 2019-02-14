@@ -89,7 +89,6 @@ header {
     top: 0
 }
 
-
 .lrgtxt {
     font-size: 20px;
     line-height: 32px
@@ -456,6 +455,11 @@ img.rsImg {
     padding: 0 20px 40px;
     box-sizing: border-box;
     float: left
+}
+
+.grid_item a {
+    border: none;
+    width: 100%
 }
 
 .grid_item img {
