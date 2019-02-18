@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "CenturyGothicBold";
+  src: url("../fonts/CenturyGothicBold.ttf") format("truetype");
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd,
 q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt,
@@ -80,7 +85,7 @@ a:hover {
 }
 
 h1 {
-    font-weight: normal
+    font-family: 'Century Gothic';
 }
 
 p {
@@ -355,6 +360,9 @@ img.rsImg {
 }
 
 .logo {
+    font-family: 'CenturyGothicBold';
+    font-size: 25px;
+    margin-left: 20px;
     z-index: 3;
     position: relative;
     left: 17px;
